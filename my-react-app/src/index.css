@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-logo{
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 24px;
+}
+.text-spacing{
+  letter-spacing: 1px;
+}
+
+.crop-grid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 2rem;
+}
+.prod-img{
+  width: 20rem;
+}
+@media screen and (min-width:578px) {
+  .prod-img{
+    width: 25rem;
+  }
+}
+@media screen and (min-width:768px) {
+  .prod-img{
+    width: 30rem;
+  }
+}
+
+.underline{
+  height: 0.5rem;
+  width: 10rem;
+  background: #dc2626;
+  border-radius: 1rem;
+}
